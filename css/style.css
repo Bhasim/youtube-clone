@@ -8,10 +8,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    width: 100vw;
-    height: 100vh;
+    box-sizing: border-box; }
+
+    /* display: grid */
+
+body {
     font-family: 'Roboto', sans-serif;
 }
+div{
+    border: 2px black solid;
+}
+

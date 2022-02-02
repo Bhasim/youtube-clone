@@ -12,55 +12,68 @@
     <title>YouTube-Clone</title>
   </head>
   <body>
-    <header class="header">
-      <a href="#">
-        <img src="./images/logo.png" alt="Youtube Logo" class="youtube-logo" />
-      </a>
-      <form class="search-bar">
-        <input
-          class="search-input"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button type="submit" class="search-button">
-          <img src="./icons/magnify.svg" alt="search button" />
-        </button>
-      </form>
-      <div class="menu">
+    <div class="container">
+      <header class="header">
         <a href="#">
-          <img src="./icons/video-plus.svg" alt="upload video" />
+          <img src="./icons/menu.svg" alt="menu">
         </a>
         <a href="#">
-          <img src="./icons/apps.svg" alt="apps" />
+          <img src="./images/logo.png" alt="Youtube Logo" class="youtube-logo" />
         </a>
-        <a href="#">
-          <img src="./icons/bell.svg" alt="bell notifications" />
-        </a>
-        <a href="#">
-          <img
-            class="channel-icon"
-            src="./images/profile-pics.jpg"
-            alt="channel profile image"
+        <form class="search-bar">
+          <input
+            class="search-input"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
           />
-        </a>
-      </div>
-    </header>
-    <div class="sidebar">
-      <a href="#">Home</a>
-      <a href="#">Explore</a>
-      <a href="#">Subscriptions</a>
-      <a href="#">History</a>
-      <a href="#">Watch later</a>
-      <a href="#">Play list </a>
-      <a href="#">Play list</a>
-      <button class="dropdown-btn">Show more
-        <i class="fas fa-angle-down"></i>
-      </button>
-      <div class="show-more">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+          <button type="submit" class="search-button">
+            <img src="./icons/magnify.svg" alt="search button" />
+          </button>
+        </form>
+        <div class="menu">
+          <a href="#">
+            <img src="./icons/search_voice.svg" alt="search-with-voice">
+          </a>
+          <a href="#">
+            <img src="./icons/video-plus.svg" alt="upload video" />
+          </a>
+          <a href="#">
+            <img src="./icons/apps.svg" alt="apps" />
+          </a>
+          <a href="#">
+            <img src="./icons/bell.svg" alt="bell notifications" />
+          </a>
+          <a href="#">
+            <img
+              class="channel-icon"
+              src="./images/profile-pics.jpg"
+              alt="channel profile image"
+            />
+          </a>
+        </div>
+      </header>
+     <div class="profile-photo">
+       <a href="#">
+         <img src="./images/bg.png" alt="profile-background">
+       </a>
+     </div>
+      <div class="sidebar">
+        <a href="#">Home</a>
+        <a href="#">Explore</a>
+        <a href="#">Subscriptions</a>
+        <a href="#">History</a>
+        <a href="#">Watch later</a>
+        <a href="#">Play list </a>
+        <a href="#">Play list</a>
+        <button class="dropdown-btn">Show more
+          <i class="fas fa-angle-down"></i>
+        </button>
+        <div class="show-more">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
       </div>
     </div>
   </body>
