@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Luxurious+Roman&family=Roboto:wght@100;300&display=swap");
 @import url(./var.css);
 @import url(./header.css);
-@import url(./form.css);
-@import url(./menu.css);
+@import url(./home-options.css);
+@import url(./main.css);
 @import url(./sidebar.css);
-@import url(./videos-sections-1.css);
+@import url(./videos-sections.css);
+@import url(./photo-icon.css);
+@import url(./profile-photo.css);
+@import url(./upload-play-all.css);
 
 * {
     margin: 0;
@@ -13,55 +16,13 @@
 
     /* display: grid */
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
+
 div{
     border: 2px black solid;
 }
 
 
-.container {  display: grid;
-    grid-template-columns: 0.5fr 1.5fr 1fr;
-    grid-template-rows: 0.4fr 0.9fr 0.8fr 0.6fr 0.7fr 1.8fr 1.3fr 0.7fr 1.9fr 0.9fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header header"
-      "sidebar-part-1 profile-photo profile-photo"
-      "sidebar-part-1 profile-photo-icon-subscribe profile-photo-icon-subscribe"
-      "sidebar-part-2 home-options home-options"
-      "sidebar-part-2 uplaoud-play-all uplaoud-play-all"
-      "sidebar-part-3 videos-sections-1 videos-sections-1"
-      "sidebar-part-3 videos-sections-1 videos-sections-1"
-      "sidebar-part-3 upload-play-all-2 upload-play-all-2"
-      "sidebar-part-4 videos-sections-2 videos-sections-2"
-      "sidebar-part-4 videos-sections-2 videos-sections-2";
-  }
-  
-  .header { grid-area: header; }
-  
-  .profile-photo { grid-area: profile-photo; }
-  
-  .profile-photo-icon-subscribe { grid-area: profile-photo-icon-subscribe; }
-  
-  .home-options { grid-area: home-options; }
-  
-  .uplaoud-play-all { grid-area: uplaoud-play-all; }
 
-  .videos-sections-1 { grid-area: videos-sections-1; }
-  
-  .upload-play-all-2 { grid-area: upload-play-all-2; }
-
-  .videos-sections-2 { grid-area: videos-sections-2; }
-  
-  .sidebar-part-1 { grid-area: sidebar-part-1; }
-  
-  .sidebar-part-2 { grid-area: sidebar-part-2; }
-  
-  .sidebar-part-3 { grid-area: sidebar-part-3; }
-  
-  .sidebar-part-4 { grid-area: sidebar-part-4; }
   
   
   
