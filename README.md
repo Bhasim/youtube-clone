@@ -4,7 +4,7 @@
 
 CSS Style is Grid for you main layout and flex for the individual items contents layout.
 
-<img src="./images/youtube-channel.png" alt="alt text" width="200"/>
+<img src="./images/youtube-channel.png"  width="1838" height="976"/>
 
 
 
