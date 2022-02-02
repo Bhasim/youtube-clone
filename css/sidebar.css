@@ -1,0 +1,15 @@
+.sidebar-top-part a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    font-family: var();
+}
+
+.sidebar-top-part{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+}
