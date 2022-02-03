@@ -1,0 +1,10 @@
+
+
+.home-options { grid-area: home-options; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: flex-start;
+    justify-content: space-between;
+    
+}

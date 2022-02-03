@@ -1,6 +1,12 @@
 /* sidebar  */
 
-
+.sidebar-part-1 { grid-area: sidebar-part-1; }
+  
+  .sidebar-part-2 { grid-area: sidebar-part-2; }
+  
+  .sidebar-part-3 { grid-area: sidebar-part-3; }
+  
+  .sidebar-part-4 { grid-area: sidebar-part-4; }
 
 
 

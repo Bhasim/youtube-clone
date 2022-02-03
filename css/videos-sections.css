@@ -1,6 +1,21 @@
 /* videos-sections  */
 
+.videos-sections-1 { grid-area: videos-sections-1; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 300px;
+    border: 1px;
+}
 
+
+
+
+.videos-sections-2 { grid-area: videos-sections-2; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
 
 
