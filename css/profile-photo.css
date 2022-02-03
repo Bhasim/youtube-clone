@@ -1,5 +1,13 @@
 
 
- .profile-photo { grid-area: profile-photo; }
+ .profile-photo { grid-area: profile-photo; 
+height: 30vh;
+}
+ 
+
+ .bg-photo {
+     height: 26vh;
+     width: 86.5vw;
+ }
 
  
