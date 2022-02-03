@@ -1,8 +1,9 @@
 :root {
-    font-size: 14px;
+    font-size: 12px;
     /* variables */
     --them-bg-color: #f3f5f7;
-    --them-videos-bg-color: #d3d5d6;
-    --grey-text-color: #6e6e6e;
+    --them-videos-bg-color: #e4e4e4;
+    --grey-text-color: #7e7a7a;
+    --grey-uppercase-text-color: #5a5a5a;
     --black-text-color: #111;
   }

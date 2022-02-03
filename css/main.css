@@ -42,3 +42,12 @@
   .sidebar-part-3 { grid-area: sidebar-part-3; }
   
   .sidebar-part-4 { grid-area: sidebar-part-4; }
+
+
+
+  div a
+{ 
+    text-decoration: none;
+    color: var(--grey-uppercase-text-color);
+    font-size: 18px;
+    font-weight: bolder}

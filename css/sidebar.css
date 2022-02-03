@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 60vh;
+    
 }
 
 .sidebar-part-1 { grid-area: sidebar-part-1; 
@@ -13,6 +14,7 @@
     justify-items: center;
     justify-content: space-between;
     height: 12vh;
+    
 }
   
   .sidebar-part-2 { grid-area: sidebar-part-2; 
@@ -38,5 +40,4 @@ p{
     color: var(--grey-text-color);
     font-size: 15px;
     font-weight: bold;
-    
 }
