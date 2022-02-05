@@ -1,4 +1,6 @@
 
+    /* display: grid */
+
 
 
 .container {  display: grid;
@@ -50,4 +52,4 @@
     text-decoration: none;
     color: var(--grey-uppercase-text-color);
     font-size: 18px;
-    font-weight: bolder}
+    font-weight: bolder }
