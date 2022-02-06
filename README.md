@@ -13,5 +13,3 @@ The CSS Style is Grid for the main layout and flex for the individual items cont
 <img src="./images/youtube-channel.png"  width="1838" height="600"/>
 
 
-
-.
