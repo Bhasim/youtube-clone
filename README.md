@@ -8,7 +8,7 @@
 The CSS Style is Grid for the main layout and flex for the individual items contents layout.
 
 
-**[Test this app yourself](bhasim.github.io/youtube-clone/)**
+**[Test this app yourself](bhasim.github.io/youtube-clone)**
 
 **[The original channel on YouTube](https://www.youtube.com/channel/UC4_m1_0MTTmnWo4tpB0O_7g)**
 
