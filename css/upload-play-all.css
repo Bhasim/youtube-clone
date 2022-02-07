@@ -1,17 +1,27 @@
-
-
-.upload-play-all { grid-area: uplaoud-play-all;
-height: 7vh;
+.upload-play-all {
+  grid-area: uplaoud-play-all;
+  height: 7vh;
 }
 
-
-
-
-.upload-play-all-2 { grid-area: upload-play-all-2; }
-
+.upload-play-all-2 {
+  grid-area: upload-play-all-2;
+}
 
 .upload-play-all,
-.upload-play-all-2
-{ background-color: var(--them-videos-bg-color);}
+.upload-play-all-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+  background-color: var(--them-videos-bg-color);}
 
-
+  .upload-play-all a,
+.upload-play-all-2 a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+   margin: 20px;
+}
