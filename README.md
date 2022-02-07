@@ -33,7 +33,8 @@ The CSS Style is Grid for the main layout and flex for the individual items cont
 
 Mail: <Baha.hasim@dci-student.de><br>
 GitHub: [Bhasim](https://github.com/)<br>
-LinkedIn: [https://www.linkedin.com/in/bahaaldean-hashim-598463103](#)
+LinkedIn: [Bahaaldean Hashim](https://www.linkedin.com/in/bahaaldean-hashim-598463103)
+
 
 ---
 
@@ -42,7 +43,6 @@ LinkedIn: [https://www.linkedin.com/in/bahaaldean-hashim-598463103](#)
 - [icons](https://fonts.google.com/icons?selected=Material+Icons)
 - [Google Fonts](https://fonts.google.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [ColorZilla](https://www.colorzilla.com/chrome/)
 
 ---
 
