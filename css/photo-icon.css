@@ -14,13 +14,6 @@
         width: 15vw;
     }
 
-    .submit-join-sub {
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        width: 15vw;
-    }
-
     .channel-icon {
         margin-right: 0.75rem;
         border-radius: 50%;
@@ -28,4 +21,73 @@
         height: 50px;
         background-color: #aaa;
       }
+
+      .channel-icon {
+        margin-right: 0.75rem;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: #aaa;
+    }
+    
+
+    /* buttons  */
+
       
+      .submit-join-sub {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content:center;
+        width: 15vw;
+        height: 5vh;
+    
+    }
+  
+    
+    .join, .subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .join{
+        width: 30%;
+        height: 150%;
+    }
+    .subscribe{
+        width: 50%;
+        height: 150%;
+        
+    }
+    
+    input[type=submit] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 50%;
+        font-weight: bold;
+        
+    }
+    
+    input[value="JOIN"]{
+        background-color: #f1f1f1bd;
+        border: 2px solid #004cfcbd;
+        color: rgb(8, 60, 230);
+
+    }
+    
+    input[value="SUBSCRIBE"]{
+        background-color: #ec0202e3;
+        border: 2px solid #ec0202e3;
+        color: white;
+    }
+    
+   /* hover for inputs buttons */
+input:hover {
+    background-color: #ffffff;
+    color: #4c9ed9;
+    border:1px solid #111;
+}
