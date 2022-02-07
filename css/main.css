@@ -5,7 +5,7 @@
 
 .container {  display: grid;
     grid-template-columns: 0.38fr 1.5fr 1fr;
-    grid-template-rows: 0.1fr 0.12fr 0.18fr 0.1fr 0.1fr 0.1fr 0.1fr 0.12fr 0.1fr 0.25fr;
+    grid-template-rows: 0.1fr 0.12fr 0.12fr 0.12fr 0.12fr 0.12fr 0.12fr 0.12fr 0.12fr 0.12fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -13,7 +13,7 @@
       "sidebar-part-1 profile-photo profile-photo"
       "sidebar-part-1 profile-photo-icon-subscribe profile-photo-icon-subscribe"
       "sidebar-part-2 home-options home-options"
-      "sidebar-part-2 uplaoud-play-all uplaoud-play-all"
+      "sidebar-part-2 uplaoud-play-all uplaoud-play-all "
       "sidebar-part-3 videos-sections-1 videos-sections-1"
       "sidebar-part-3 videos-sections-1 videos-sections-1"
       "sidebar-part-3 upload-play-all-2 upload-play-all-2"
