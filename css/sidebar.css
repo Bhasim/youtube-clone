@@ -1,84 +1,70 @@
 /* sidebar  */
 
-/* .sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 55vh;
-    width: 80%;
-    border: 2px rgb(214, 214, 214) solid;
-    
-} */
-
- .sidebar {
-display: grid;
-grid-template-columns: 100%;
-grid-template-rows:  20% 30% 40% 10%;
-gap: 0px 0px;
-grid-template-areas: 
-"sidebar-part-1"
-"sidebar-part-2"
-"sidebar-part-3"
-"sidebar-part-4"
- }
-
-.sidebar-part-1 { grid-area: sidebar-part-1; 
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-between;
-    height: 11vh;
-    margin: 15px;
-    
+.sidebar {
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 30% 40% 10%;
+  gap: 0px 0px;
+  grid-template-areas:
+    "sidebar-part-1"
+    "sidebar-part-2"
+    "sidebar-part-3"
+    "sidebar-part-4";
     
 }
+
+.sidebar-part-1 {
+  grid-area: sidebar-part-1;
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
   
-  .sidebar-part-2 { grid-area: sidebar-part-2; 
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-between;
-    height: 11vh;
-    
 }
+
+.sidebar-part-2 {
+  grid-area: sidebar-part-2;
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: flex-start;
+  border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
+ 
+}
+
+.sidebar-part-3 {
+  grid-area: sidebar-part-3;
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: flex-start;
+  align-content: center;
+  border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
+ 
+}
+
+.sidebar-part-4 {
+  grid-area: sidebar-part-4;
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: flex-start;
+  align-content: center;
+}
+
+p {
+  color: var(--grey-text-color);
+  font-size: 15px;
+  font-weight: bold;
   
-
-
-
-  .sidebar-part-3 { grid-area: sidebar-part-3; 
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-between;
-    margin: 15px;
-    height: 11vh; }
-  
-  .sidebar-part-4 { grid-area: sidebar-part-4; 
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-between;
-    height: 11vh;}
-
-
-
-
-
-p{
-    color: var(--grey-text-color);
-    font-size: 15px;
-    font-weight: bold;
 }
 
 h3 {
   color: var(--black-text-color);
   font-size: 14px;
   font-weight: bold;
+  margin-top: 10%;
 }
 
 /* border: 2px rgb(214, 214, 214) solid; */
