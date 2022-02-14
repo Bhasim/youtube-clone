@@ -14,6 +14,7 @@
     
 }
 
+/* sidebar 1  with all content*/
 .sidebar-part-1 {
   grid-area: sidebar-part-1;
   display: flex;
@@ -23,6 +24,35 @@ border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
   
 }
 
+.sidebar-part-1  a {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--black-text-color);
+  margin-top: 20px;
+  height: 60px;
+  width: 90px;
+}
+
+.sidebar-part-1  :nth-child(2) {
+  width: 100px;
+}
+
+.sidebar-part-1  :nth-child(3) {
+  width: 140px;
+}
+
+.sidebar-part-1 > a > img{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  height: 40px;
+  width: 30px;
+}
+
+/* sidebar 2  with all content*/
 .sidebar-part-2 {
   grid-area: sidebar-part-2;
   display: flex;
@@ -33,6 +63,25 @@ border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
  
 }
 
+.sidebar-part-2  a {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 60px;
+  width: 120px;
+}
+
+.sidebar-part-2 > a > img{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  height: 40px;
+  width: 30px;
+}
+
+/* sidebar 3  with all content*/
 .sidebar-part-3 {
   grid-area: sidebar-part-3;
   display: flex;
@@ -44,6 +93,7 @@ border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
  
 }
 
+/* sidebar 4  with all content*/
 .sidebar-part-4 {
   grid-area: sidebar-part-4;
   display: flex;
