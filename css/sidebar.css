@@ -31,7 +31,7 @@ border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
   align-items: center;
   justify-content: space-between;
   color: var(--black-text-color);
-  margin-top: 20px;
+  margin-top: 1px;
   height: 60px;
   width: 90px;
 }
@@ -68,9 +68,23 @@ border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
   flex-direction: row;
   justify-items: center;
   align-items: center;
+  justify-content: space-between;
+  color: var(--black-text-color);
   margin-top: 20px;
   height: 60px;
-  width: 120px;
+  width: 160px;
+}
+
+.sidebar-part-2  a:nth-child(1) {
+  width: 100px;
+}
+
+.sidebar-part-2  :nth-child(2) {
+  width: 125px;
+}
+
+.sidebar-part-2  a:nth-child(3), a:nth-child(4) {
+  width: 100px;
 }
 
 .sidebar-part-2 > a > img{
