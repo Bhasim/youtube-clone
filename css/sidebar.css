@@ -59,6 +59,7 @@ border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
   flex-direction: column;
   justify-items: start;
   align-items: flex-start;
+  height: 280px;
   border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
  
 }
@@ -71,7 +72,6 @@ border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
   justify-content: space-between;
   color: var(--black-text-color);
   margin-top: 1px;
-  
   height: 60px;
   width: 160px;
 }
@@ -109,10 +109,40 @@ border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
   justify-items: start;
   align-items: flex-start;
   align-content: center;
+  height: 380px;
   border-bottom: 1px rgba(128, 128, 128, 0.329) solid;
- 
 }
 
+.sidebar-part-3  a{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--black-text-color);
+  margin-top: 1px;
+  height: 60px;
+  width: 160px;
+}
+
+.sidebar-part-3  a {
+  width: 100px;
+}
+.sidebar-part-3  a:nth-child(3) {
+  width: 130px;
+}
+.sidebar-part-3  a:nth-child(4) {
+  width: 140px;
+}
+.sidebar-part-3  a:nth-child(5) {
+  width: 110px;
+}
+.sidebar-part-3  a:nth-child(6) {
+  width: 135px;
+}
+.sidebar-part-3  a:nth-child(7) {
+  width: 120px;
+}
 /* sidebar 4  with all content*/
 .sidebar-part-4 {
   grid-area: sidebar-part-4;
