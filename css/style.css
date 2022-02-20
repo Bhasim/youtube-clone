@@ -8,6 +8,7 @@
 @import url(./photo-icon.css);
 @import url(./profile-photo.css);
 @import url(./upload-play-all.css);
+@import url(./media-queries.css);
 
 * {
     margin: 0;
